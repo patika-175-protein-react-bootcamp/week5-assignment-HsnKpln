@@ -1,0 +1,125 @@
+.register{
+    width: 100%;
+    height: 100vh;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3c3c3c;
+}
+.darkRegister{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.crescent{
+    width: 100%;
+    margin-top: 25px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: end;
+}
+.registerContainer{
+    width: 65%;
+}
+.registerTitle{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 59px;
+}
+.subline{
+    width: 123px;
+    height: 5px;
+    background-color: #444aff;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+label{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.15px;
+    margin-bottom: 5px;
+}
+.divInput{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+input{
+    background-color: transparent;
+    height: 2em;
+    border: 2px solid #8E8E8E;
+    border-radius: 4px;
+}
+.nameSurname{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.nameblock{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 20px;
+}
+.surnameblock{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.checkBoxContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.checkBoxx{
+    height: 3em;
+    background-color: #e5e5e5;
+    border-radius: 4px;
+}
+.contract{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #8E8E8E;
+    margin-left: 5px;
+}
+.registerBtn{
+    width: 100%;
+    height: 3em;
+    background: #444AFF;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+.darkRegisterBtn{
+    width: 100%;
+    height: 3em;
+    background: #FFBF5E;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+span{
+    color: red;
+}
+.requiredStar::after  {
+      content: "*";
+      color: red;
+      padding-left: 2px;
+  }

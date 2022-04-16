@@ -1,0 +1,55 @@
+.patikaContainer{
+    width: 100%;
+    height: 100vh;
+}
+.patika{
+    width: 100%;
+    height: 100vh;
+    background-color: #dadada;
+}
+.darkPatika{
+    width: 100%;
+    height: 100vh;
+    background-color: #8c8c8c;
+}
+.patikaTitle{
+    display: flex;
+    width: 559px;
+    height: 74px;
+    color: blue;
+    font-size: 54px;
+    margin-left: 20px;
+}
+.darkPatikaTitle{
+    display: flex;
+    width: 559px;
+    height: 74px;
+    color: white;
+    font-size: 54px;
+    margin-left: 20px;
+}
+.mainText{
+    width: 95%;
+    color: blue;
+    font-size: 1.35em;
+    padding: 20px;
+}
+.darkMainText{
+    width: 95%;
+    color: white;
+    font-size: 1.35em;
+    padding: 20px;
+}
+.shapes{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+.topShape{
+    margin-right: 50px;
+}
+.bottomShape{
+    margin-right: 90px;
+}
